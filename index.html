@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1, user-scalable=0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
     <title>Dark Universe</title>
     <style>
       body {
@@ -10,9 +13,30 @@
         margin: 0;
         background-color: black;
       }
+      .title {
+        color: #BCBCBC;
+        position: absolute;
+        right: 5%;
+        top: 8%;
+        font-family: 'Roboto', sans-serif;
+        font-size: max(1.5vw, 15px);
+        text-align: right;
+      }
+      h1 {
+        font-weight: 900;
+        margin: 0;
+      }
+      h4 {
+        font-weight: 400;
+        margin: 0;
+      }
     </style>
   </head>
   <body>
+    <div class="title">
+      <h1>Dark Universe</h1>
+      <h4>A three.js sketch</h4>
+    </div>
   </body>
   <script type="module" src="./script.js"></script>
 
