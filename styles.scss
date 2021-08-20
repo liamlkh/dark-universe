@@ -41,6 +41,7 @@ canvas {
     width: 0;
     height: 0;
     border-style: solid;
+    pointer-events: auto;
 
     &:nth-child(1) {
       top: 0;
